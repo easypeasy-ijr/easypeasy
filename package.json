@@ -12,9 +12,7 @@
     "nodemailer": "^6.1.1",
     "pg": "7.8.1",
     "ts-node": "8.0.2",
-    "typeorm": "0.2.14"
-  },
-  "devDependencies": {
+    "typeorm": "0.2.14",
     "@types/chai": "4.1.7",
     "@types/express": "4.16.1",
     "@types/joi": "14.3.2",
@@ -29,6 +27,9 @@
     "supertest": "3.4.2",
     "typescript": "3.3.3333",
     "concurrently": "3.5.1"
+  },
+  "devDependencies": {
+    
   },
   "scripts": {
     "start": "ts-node ./src/server/src/index.ts",
